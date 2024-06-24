@@ -1,0 +1,101 @@
+.order-tracking {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-progress {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+  margin-right: 20px;
+}
+
+.order-info {
+  margin-bottom: 20px;
+}
+
+.progress-container {
+  flex: 1;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.red {
+  background-color: #d9534f;
+}
+
+.orange {
+  background-color: #f0ad4e;
+}
+
+.green {
+  background-color: #5cb85c;
+}
+
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: #ddd;
+  margin: 0 10px;
+}
+
+.progress-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.process-info {
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.process-info p, h3 {
+  margin-bottom: 20px;
+}
+
+.process-info .circle {
+  display: inline-block;
+  width: 40px; /* Tentukan ukuran yang sesuai */
+  height: 40px; /* Tentukan ukuran yang sesuai */
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.process-info .circle.red {
+  background-color: #d9534f;
+}
+
+.process-info .circle.orange {
+  background-color: #f0ad4e;
+}
+
+.process-info .circle.green {
+  background-color: #5cb85c;
+}
+

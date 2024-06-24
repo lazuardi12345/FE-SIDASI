@@ -1,0 +1,56 @@
+/* Sidebar_admin.css */
+.navbar {
+  width: 250px;
+  height: 100vh;
+  background: #2f3542;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.navbar.responsive {
+  width: 100%;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  width: 100%; /* Ensure the links take full width */
+}
+
+.nav-item {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  transition: background 0.3s, color 0.3s; /* Smooth transition for hover effect */
+  width: 100%; /* Ensure the link takes full width */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.nav-item a i {
+  margin-right: 10px;
+}
+
+.nav-item a:hover {
+  border-radius: 5px;
+  background: #2d5c96;
+  color: #dfe4ea;
+}
